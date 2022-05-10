@@ -10,7 +10,8 @@ import ProductScreen from './screens/ProductScreen';
 //slug is our parameter
 //We remove pagerefresh as there is no need for page refresh between pages for a single page application
 //and for that we use *Link* instead of anchor
-
+//And created a url slug
+//We will use import instead of requite that's why we will set *type* to module to use ES6 module to import and export
 function App() {
   return (
     <BrowserRouter>
